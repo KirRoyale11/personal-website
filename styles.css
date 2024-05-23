@@ -9,7 +9,6 @@
     
 }
 
-media
 
 header {
     display: flex;
@@ -18,6 +17,7 @@ header {
 
 body {
     min-height: 100vh;
+    max-width: 80%;
     display: flex;
     flex-direction: column;
     
