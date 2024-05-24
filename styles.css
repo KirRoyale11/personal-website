@@ -6,14 +6,16 @@
     color: goldenrod;
     font-family:Arial, Helvetica, sans-serif;
     
-    
 }
 
 @media (min-width: 1000px) {
     
     .about-info {
         display: flex;
-        flex-direction: row;    
+        flex-direction: row;
+        /* img {
+            float: right;
+        }   */
     }
     p {
         margin-right: 20%;
@@ -35,7 +37,6 @@ body {
     background-color: lightblue;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     
 }
 
@@ -71,8 +72,7 @@ h1 {
 
 div {
     padding: 10px;
-    
-    /* display: flex; */
+    justify-content: flex-end;
 }
 
 h2 {
