@@ -12,18 +12,17 @@
   .about-info {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
-    align-items: flex-start;
+    /* align-items: flex-start; */
   }
 
-  img .bio {
+  /* img .bio {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    /* display: inline-block;
-    text-wrap: left; */
-  }
+    
+  } */
   p {
     margin-right: 20%;
   }
@@ -114,4 +113,10 @@ footer {
   display: flex;
   justify-content: flex-end;
   margin: 10px 10px;
+}
+
+
+a:visited {
+  
+  color: darkorange;
 }
