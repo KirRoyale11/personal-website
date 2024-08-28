@@ -35,7 +35,9 @@ body {
   margin-left: 10px;
 }
 
-h1, .title, div {
+h1,
+.title,
+div {
   padding: 10px;
 }
 
@@ -100,6 +102,10 @@ form {
   flex-direction: column;
   gap: 5px;
   width: 300px;
+}
+
+input {
+  color: black;
 }
 
 footer {
